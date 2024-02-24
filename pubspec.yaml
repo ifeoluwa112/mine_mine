@@ -1,0 +1,65 @@
+name: leap
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  
+fonts:
+  - family: BRFirma
+    fonts:
+      - asset: assets/fonts/BRFirma/BRFirma-Thin.ttf
+        weight: 200
+      - asset: assets/fonts/BRFirma/BRFirma-ThinItalic.ttf
+        weight: 200
+        style: italic
+      - asset: assets/fonts/BRFirma/BRFirma-ExtraLight.ttf
+        weight: 300
+      - asset: assets/fonts/BRFirma/BRFirma-ExtraLightItalic.ttf
+        weight: 300
+        style: italic
+      - asset: assets/fonts/BRFirma/BRFirma-Light.ttf
+        weight: 400
+      - asset: assets/fonts/BRFirma/BRFirma-LightItalic.ttf
+        weight: 400
+        style: italic
+      - asset: assets/fonts/BRFirma/BRFirma-Regular.ttf
+        weight: 500
+      - asset: assets/fonts/BRFirma/BRFirma-RegularItalic.ttf
+        weight: 500
+        style: italic
+      - asset: assets/fonts/BRFirma/BRFirma-Medium.ttf
+        weight: 600
+      - asset: assets/fonts/BRFirma/BRFirma-MediumItalic.ttf
+        weight: 600
+        style: italic
+      - asset: assets/fonts/BRFirma/BRFirma-SemiBold.ttf
+        weight: 700
+      - asset: assets/fonts/BRFirma/BRFirma-SemiBoldItalic.ttf
+        weight: 700
+        style: italic
+      - asset: assets/fonts/BRFirma/BRFirma-Bold.ttf
+        weight: 800
+      - asset: assets/fonts/BRFirma/BRFirma-BoldItalic.ttf
+        weight: 800
+        style: italic
+      - asset: assets/fonts/BRFirma/BRFirma-Black.ttf
+        weight: 900
+      - asset: assets/fonts/BRFirma/BRFirma-BlackItalic.ttf
+        weight: 900
+        style: italic
